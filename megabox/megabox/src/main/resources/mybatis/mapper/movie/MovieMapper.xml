@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.megabox.mapper.MovieMapper">
+
+<select id="getMovieData" parameterType="String" resultType="com.megabox.movie.dto.Movie">
+	select * from movie where movie_no between 001 and 008
+</select>
+
+<select id="getMovieData2" parameterType="String" resultType="com.megabox.movie.dto.Movie">
+	select * from movie where movie_no between 011 and 016
+</select>
+
+<select id="getMovieData3" parameterType="String" resultType="com.megabox.movie.dto.Movie">
+	select * from movie where movie_no between 021 and 025
+</select>
+
+<select id="getMovieData4" parameterType="String" resultType="com.megabox.movie.dto.Movie">
+	select * from movie where movie_no between 031 and 036
+</select>
+
+</mapper>

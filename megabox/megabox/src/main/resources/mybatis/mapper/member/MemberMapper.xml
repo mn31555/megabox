@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.megabox.mapper.MemberMapper">
+
+	<!-- 회원가입 -->
+	<insert id="memberJoin" parameterType="com.megabox.member.dto.Member" >
+		insert into member
+		(member_id,m_name,m_password,m_email,m_year,m_month,m_day,m_phone,m_address)
+		values
+		(#{memberId},#{mName},#{mPassword},#{mEmail},#{mYear},#{mMonth},#{mDay},#{mPhone},#{mAddress})
+	</insert>
+
+	<!-- 로그인(loginChk)- ID, PW 검증 -->
+	<select id="memberLogin" resultType="Integer">
+		select count(*) from member
+		where member_id= #{memberId} and m_password = #{mPassword}
+	</select>
+
+	<!-- id 중복확인 -->
+	<select id="idcheck" parameterType = "String" resultType="Integer">
+		select count(*) from member
+		where member_id = #{memberId}
+	</select>
+
+	<!-- ID 찾기 -->
+	<select id="findId" parameterType="com.megabox.member.dto.Member" resultType="String">
+		select member_id from member
+		where m_name = #{mName} and m_email = #{mEmail}
+	</select>
+
+	<!-- PW 찾기 -->
+	<select id="findPw" parameterType="com.megabox.member.dto.Member" resultType="String">
+		select m_password from member
+		where member_id = #{memberId} and m_name=#{mName} and m_email=#{mEmail}
+	</select>
+
+	<!-- 하나의 유저 정보 가져오기(세션, 마이페이지 수정할때 User 정보 불러오기) -->
+	<select id="getReadData" parameterType="String" resultType="com.megabox.member.dto.Member">
+		select * from member where member_id = #{memberId}
+	</select>
+
+	<!-- 회원 정보 수정(MyPage) -->
+	<update id="updateMember">
+		update member set
+		m_password = #{mPassword}, m_email= #{mEmail}, m_address = #{mAddress}, m_year = #{mYear}, 
+		m_month = #{mMonth}, m_day = #{mDay}
+		where member_id = #{memberId}
+	</update>
+	
+	<!-- 회원탈퇴 -->
+	<delete id="deleteMember">
+		delete from member where member_id = #{memberId} and m_password = #{mPassword}
+	</delete>
+
+</mapper> 

@@ -1,0 +1,746 @@
+#contents {
+    width: 100%;
+    margin: 0;
+    padding: 40px 0 0 0;
+}
+:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+}
+.post-lank-box {
+    width: 100%;
+    height: 331px;
+    padding: 29px 0 0 0;
+    background: url(https://img.megabox.co.kr/static/pc/images/movie/bg-movie-post-top.png) no-repeat center 0;
+}
+.post-lank-box .inner-wrap {
+    position: relative;
+}
+.inner-wrap {
+    width: 1100px;
+    margin: 0 auto;
+}
+.inner-wrap:after, .inner-wrap:before {
+    content: '';
+    display: table;
+}
+.inner-wrap:after {
+    clear: both;
+}
+.inner-wrap:after, .inner-wrap:before {
+    content: '';
+    display: table;
+}
+h2.tit {
+    padding: 0 0 26px 0;
+    font-size: 1.8666em;
+    font-weight: 400;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: #222;
+    margin: 0px;
+}
+
+
+.tit {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+.tit {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.post-lank-box .post-lank {
+    float: left;
+    height: 194px;
+    margin: 0 0 0 -58px;
+}
+
+.post-count:hover { display: none;}
+
+.post-lank {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+
+}
+
+.post-lank {
+    list-style-type: none;
+    padding: 0;
+}
+.post-lank-box .post-lank li {
+    position: relative;
+    float: left;
+    margin-left: 58px;
+}
+.post-lank li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.post-lank-box .post-lank li a {
+    display: block;
+    width: 135px;
+    height: 194px;
+}
+a:link {
+    color: #444;
+    text-decoration: none;
+}
+.top5Btn {
+    background-color: transparent;
+}
+.top5Btn:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.post-lank li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.post-lank-box .post-lank li a .post-count {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 135px;
+    height: 194px;
+    padding-top: 73px;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+   
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.post-lank-box .post-lank li a .lank {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+    font-size: 1.6em;
+    line-height: 1em;
+    color: #fff;
+    font-family: Roboto;
+    font-weight: 300;
+    font-style: italic;
+}
+.post-lank-box p {
+    margin: 0;
+    padding: 0;
+}
+.post-lank-box .post-lank li a .post-count .tit {
+    font-size: .8667em;
+    line-height: 1.1;
+    color: #fff;
+}
+.post-lank-box .post-lank li a .post-count .count {
+    font-size: 2.1333em;
+    font-family: Roboto;
+    color: #fff;
+    font-weight: 300;
+}
+.post-lank-box .post-lank li a .img img {
+    width: 135px!important;
+    height: 194px!important;
+}
+.post-lank-box .add-post .button {
+    width: 123px;
+    padding: 0;
+}
+.button.purple {
+    color: #fff;
+    line-height: 36px;
+    border: 0;
+    background: #503396;
+}
+.top5Btn .button {
+    text-decoration: none;
+}
+.pt00 {
+    padding-top: 0!important;
+}
+
+
+.button {
+    display: inline-block;
+    height: 36px;
+    margin: 0;
+    padding: 0 15px;
+    text-align: center;
+    line-height: 34px;
+    color: #503396;
+    font-weight: 400;
+    border-radius: 4px;
+    font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+    text-decoration: none;
+    border: 1px solid #503396;
+    vertical-align: middle;
+    background-color: #fff;
+    cursor: pointer;
+}
+.post-lank-box .add-post {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.post-lank-box .mypost-box .post-count {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 135px;
+    height: 194px;
+    padding-top: 73px;
+    background-color: rgba(0,0,0,.6);
+    text-align: center;
+}
+.post-lank-box .mypost-box .before {
+    width: 100%;
+    height: 100%;
+    background: url(https://img.megabox.co.kr/static/pc/images/movie/bg-movie-post-no-login.png) no-repeat 0 0;
+}
+.post-lank-box .mypost-box {
+    position: relative;
+    float: left;
+    width: 135px;
+    height: 194px;
+    margin: 0 0 0 58px;
+}
+.post-lank-box .mypost-box .post-count .tit {
+    font-size: .8667em;
+    line-height: 1.1;
+    color: #fff;
+}
+.post-lank-box p {
+    margin: 0;
+    padding: 0;
+}
+.post-lank-box .mypost-box .post-count a.txt-login {
+    display: inline-block;
+    padding: 10px 0 0 0;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+}
+.post-lank-box .inner-wrap {
+    position: relative;
+}
+.inner-wrap:after, .inner-wrap:before {
+content: '';
+display: table;
+}
+.inner-wrap:after {
+clear: both;
+}
+.inner-wrap:after, .inner-wrap:before {
+content: '';
+display: table;
+}
+.inner-wrap {
+    width: 1100px;
+    margin: 0 auto;
+}
+.mt30 {
+    margin-top: 30px!important;
+}
+.post-lank-box .add-post {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* post */
+
+.tab-sorting {
+    margin-top: -10px;
+    text-align: center;
+}
+.mb40 {
+    margin-bottom: 40px!important;
+}
+.tab-sorting button.on1 {
+    
+    font-weight: 400;
+}
+.tab-sorting button.on1:hover{
+    color: #351f66;  
+    font-weight: 400;
+    border-bottom: 3px solid #503396;
+}
+.on2:hover{
+    color: #351f66;  
+    font-weight: 400;
+    border-bottom: 3px solid #503396;
+}
+
+.tab-sorting button {
+    position: relative;
+    display: inline-block;
+    margin: 10px 12px 0 12px;
+    padding: 0 0 5px 0;
+    border: 0;
+    color: #555;
+    font-size: 1.0667em;
+    font-weight: 400;
+    border-bottom: 2px solid #fff;
+    background-color: #fff;
+}
+
+.tab-sorting button:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: -14px;
+    top: 2px;
+    width: 1px;
+    height: 14px;
+    background-color: #d8d9db;
+}
+
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+.tab-sorting button:last-child:after {
+    display: none;
+}
+
+.board-list-util {
+    margin: 30px 0 15px 0;
+    text-align: right;
+}
+b, strong {
+    font-weight: 700;
+}
+.board-list-util .result-count {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding-top: 15px;
+    line-height: 1.1;
+    vertical-align: top;
+}
+.board-list-util .sorting span:first-child {
+    margin-left: 0;
+}
+.board-list-util .sorting span {
+    display: block;
+    position: relative;
+    float: left;
+    margin: 0 10px;
+}
+
+button {
+    cursor: pointer;
+    letter-spacing: -.5px;
+    font-weight: 400;
+    font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+
+.board-list-util .sorting span .btn.on {
+    color: #022;
+    font-weight: 400;
+}
+.board-list-util .sorting span .btn {
+    display: block;
+    color: #555;
+}
+.board-list-util .sorting button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.board-search {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 230px;
+    height: 36px;
+    margin: 0;
+    padding: 0 31px 0 0;
+    border: 1px solid #d8d9db;
+    border-radius: 3px;
+}
+
+.board-search .input-text {
+    display: block;
+    width: 100%;
+    height: 34px;
+    border: 0;
+}
+.input-text {
+    display: inline-block;
+    width: 100%;
+    height: 32px;
+    padding: 0 10px;
+    line-height: 30px;
+    color: #444;
+    border: 1px solid #d8d9db;
+    vertical-align: middle;
+    font-family: NanumBarunGothic,Dotum,'돋움',sans-serif;
+}
+
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: 1em;
+    line-height: 1.15;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: 1em;
+    line-height: 1.15;
+}
+* {
+    box-sizing: border-box;
+}
+
+input[type="hidden" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    display: none !important;
+    padding: initial;
+    border: initial;
+}
+
+.board-search .btn-search-input {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+.btn-search-input {
+    overflow: hidden;
+    width: 30px;
+    height: 32px;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    border: 0;
+    text-indent: -9999px;
+    background: #fff url(https://img.megabox.co.kr/static/pc/images/common/btn/btn-search-input.png) no-repeat center;
+}
+
+button {
+    -webkit-appearance: button;
+}
+
+element.style {
+    position: relative;
+    height: 1314.89px;
+}
+.movie-post-list {
+    overflow: hidden;
+    margin-left: -60px;
+    min-height: 500px;
+}
+
+element.style {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.movie-post-list .grid-item {
+    
+    float: left;
+    width: 230px;
+    height: 500px;
+    margin: 0 0 40px 60px;
+}
+.movie-post-list .grid-item .wrap {
+    overflow: hidden;
+    display: block;
+    border-radius: 10px;
+}
+.movie-post-list .grid-item .wrap .img {
+    overflow: hidden;
+    width: 100%;
+    height: 171px;
+    text-align: center;
+    font-size: 0;
+    line-height: 0;
+    border: 1px solid transparent;
+    border-radius: 10px 10px 0 0;
+    background-color: #f5f5f5;
+}
+
+.movie-post-list .grid-item .wrap .img a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.movie-post-list a {
+    text-decoration: none;
+    color: #444;
+}
+a:link {
+    color: #444;
+    text-decoration: none;
+}
+
+.movie-post-list .grid-item .wrap .img img {
+    width: 100%;
+    height: auto;
+    min-height: 169px;
+}
+img {
+    border: 0;
+}
+img {
+    border-style: none;
+}
+
+.movie-post-list .grid-item .wrap .cont {
+    position: relative;
+    padding: 20px;
+    border: 1px solid #ebebeb;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.movie-post-list .grid-item .wrap .cont .writer {
+    overflow: hidden;
+    padding: 0 0 15px 0;
+    font-size: .8667em;
+}
+
+.movie-post-list .grid-item .wrap .cont .writer a {
+    float: left;
+    line-height: 23px;
+}
+.movie-post-list a {
+    text-decoration: none;
+    color: #444;
+}
+
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.movie-post-list .grid-item .wrap .cont .writer {
+    overflow: hidden;
+    padding: 0 0 15px 0;
+    font-size: .8667em;
+}
+.movie-post-list a {
+    text-decoration: none;
+    color: #444;
+}
+.movie-post-list .grid-item .wrap .cont .tit {
+    padding: 0 0 15px 0;
+    line-height: 1.3;
+    color: #444;
+    text-align: left;
+}
+.movie-post-list .grid-item .wrap .cont .link {
+    display: block;
+}
+.movie-post-list .grid-item .wrap .cont .time {
+    padding: 0;
+    line-height: 1.1;
+    font-size: .8667em;
+    margin-top: 15px;
+}
+.movie-post-list p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.movie-post-list .grid-item .wrap .cont .condition {
+    height: 36px;
+    padding: 20px 0 0 0;
+    line-height: 1.1;
+    font-size: .8667em;
+}
+
+.movie-post-list .grid-item .wrap .cont .condition .btn-like {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+.movie-post-list .grid-item .wrap .cont .condition .btn-like .ico-like {
+    margin-top: -6px;
+}
+.ico-like {
+    width: 16px;
+    height: 17px;
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-like.png);
+}
+.iconset {
+    overflow: hidden;
+    display: inline-block;
+    margin: -1px 0 0 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.movie-post-list .grid-item .wrap .cont .condition a {
+    display: block;
+    float: left;
+    margin-left: 15px;
+}
+
+.ico-reply {
+    width: 16px;
+    height: 15px;
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-reply.png);
+}
+.iconset {
+    overflow: hidden;
+    display: inline-block;
+    margin: -1px 0 0 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+.btn-more {
+    position: relative;
+    padding: 40px 0 0 0;
+}
+
+.btn-more .btn {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid #eaeaea;
+    background-color: transparent;
+    color: #666;
+}
+
+.btn-more .btn i {
+    margin-left: 6px;
+}
+.ico-btn-more-arr {
+    width: 12px;
+    height: 7px;
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-btn-more-arr.png);
+}
+.iconset {
+    overflow: hidden;
+    display: inline-block;
+    margin: -1px 0 0 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.tab-content{text-align: center;}
+
+input[type="radio"]+label {
+    text-align: center;
+    width: 220px;
+    display: inline-block;
+    padding: 10px;
+    background: white;
+    color: #000;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 25px;
+    border-bottom: 1px solid #503396;
+    margin-left: -2.9px;
+}
+.conbox{   
+    display: none;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"]:checked+label {
+    color: #000;
+    border: 2px solid #503396;
+    border-radius: 4px;
+    border-bottom: 0;
+}
+input[id="tab01"]:checked~.con1 {
+    display: block; 
+}
+
+input[id="tab02"]:checked~.con2 {
+    display: block;
+    
+}
+#movieList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+   
+}
+

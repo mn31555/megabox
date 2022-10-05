@@ -1,0 +1,113 @@
+.title {
+	text-align: center;
+	font-size: 50px;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+
+#memberId {
+	width: 400px;
+	height: 25px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+#mName {
+	width: 400px;
+	height: 25px;
+	border-radius: 5px;
+	margin-top: 7px;
+}
+
+#mPassword {
+	width: 400px;
+	height: 25px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+#mEmail {
+	width: 400px;
+	height: 25px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+#mPhone {
+	width: 400px;
+	height: 30px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+#mAddress {
+	width: 400px;
+	height: 20px;
+	border-radius: 5px;
+	margin-top: 10px;
+}
+
+.button3 {
+	margin-top: 10px;
+	border-radius: 5px;
+	width: 80px;
+	height: 30px;
+	background-color: darkslateblue;
+	color: aliceblue;
+	margin-bottom: 15px;
+}
+
+#birth_year {
+	width: 70px;
+	height: 28px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+#birth_month {
+	width: 70px;
+	height: 28px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+#birth_day {
+	width: 70px;
+	height: 28px;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+
+.button1 {
+	margin-top: 30px;
+	border-radius: 5px;
+	width: 250px;
+	height: 50px;
+	background-color: darkslateblue;
+	color: aliceblue;
+	margin-bottom: 100px;
+}
+
+.button1:hover {
+	background-color: blueviolet;
+}
+
+.button3:hover {
+	background-color: blueviolet;
+}
+
+/* 중복아이디 존재하지 않는경우 */
+.memberId_input1 {
+	color: green;
+	display: none;
+}
+/* 중복아이디 존재하는 경우 */
+.memberId_input2 {
+	color: red;
+	display: none;
+}
+/* 중복아이디 존재하지 않고 5~10자가 아닌 경우 */
+.memberId_input3{
+		color : red;
+		display : none;
+	}

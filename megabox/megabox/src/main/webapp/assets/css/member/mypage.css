@@ -1,0 +1,22 @@
+.title {text-align: center;
+    font-size: 50px; 
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.mypage_con {margin-bottom: 150px;}
+td{border-bottom: 1px solid lightgray; }
+th { background-color: darkslateblue; color: aliceblue;  height: 50px; border-radius: 2px;}
+table {border-top: 1px solid navy;  border-bottom: 1px solid navy;  }
+#mPassword { width: 150px; height: 18px; border-radius: 5px; margin-left: 5px;}
+#mPassword2 { width: 150px; height: 18px; border-radius: 5px; margin-left: 5px;}
+#mEmail { width: 150px; height: 18px; border-radius: 5px; margin-left: 5px;}
+#mAddress { width: 400px; height: 18px; border-radius: 5px; margin-left: 5px; margin-left: 10px;}
+#mYear { width: 100px; height: 28px; border-radius: 5px;  margin-left: 10px;}
+#mMonth { width: 100px; height: 28px; border-radius: 5px; }
+#mDay { width: 100px; height: 28px; border-radius: 5px; }
+#mPhone { width: 100px; height: 28px; border-radius: 5px; margin-left: 5px; }
+
+.button2 {cursor: pointer; background-color: darkslateblue; margin: 10px; margin-bottom: -5px; color: aliceblue; width: 80px; height: 30px; border-radius: 4px;}  
+.button1 {cursor: pointer; background-color: darkslateblue;   color: aliceblue; width: 150px; height: 40px; border-radius: 4px;}  
+.button1:hover {background-color: #5753BA ;}
+.button2:hover {background-color: #5753BA ;}

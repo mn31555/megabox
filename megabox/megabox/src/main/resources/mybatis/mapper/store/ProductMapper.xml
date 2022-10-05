@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.megabox.mapper.ProductMapper">
+
+<select id="getProductData" parameterType="String" resultType="com.megabox.store.dto.Product">
+	select * from product where product_no between 1000 and 1007
+</select>
+
+<select id="getProductData2" parameterType="String" resultType="com.megabox.store.dto.Product">
+	select * from product where product_no between 1008 and 1009
+</select>
+
+<select id="getInfo" parameterType="String" resultType="com.megabox.store.dto.Product">
+	select * from product where product_no = #{productNo}
+</select>
+
+<insert id="insertInfo">
+	insert into buy
+	(product_no,member_id,b_amount,b_sum)
+	values
+	(#{productNo},#{memberId},#{bAmount},#{bSum})
+</insert>
+
+
+
+
+</mapper>
